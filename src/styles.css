@@ -117,3 +117,17 @@ div#footerpage a {
 div#footerpage a:hover {
   color: lightsteelblue;
 }
+div#alerts {
+  background-color: firebrick;
+  padding: 5px;
+}
+div#alerts h3 {
+  font-family: sans-serif;
+  color: lightsteelblue;
+}
+div#alerts {
+  font-weight: bold;
+}
+div#alerts a:hover {
+  color: lightslategrey;
+}

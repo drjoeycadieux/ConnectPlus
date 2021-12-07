@@ -5,10 +5,13 @@ import FooterPage from "./components/FooterPage";
 
 import NavHeader from "./components/NavHeader";
 
+import SiteAlerts from "./components/SiteAlerts";
+
 export default function App() {
   return (
     <div className="App">
       <NavHeader />
+      <SiteAlerts />
       <div id="header">
         <h2>
           ConnectPlus <span className="aria-hidden">++</span>
