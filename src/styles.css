@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+span {
+  color: rgba(226, 13, 13, 0.884);
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+div#nav {
+  background-color: #ca6e22;
+  padding: 15px;
+}
+div#nav a#title {
+  font-size: 25px;
+  padding-left: 5px;
+}
+div#nav ul {
+  display: block;
+}
+div#nav li {
+  display: inline;
+  font-weight: bold;
+  color: black;
+  margin: 10px;
+}
+div#nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+div#nav a:hover {
+  color: lightsteelblue;
+}
+div#header {
+  background-color: #303846;
+  /* background: url("./assets/elvis.png"); */
+  background-size: cover;
+  padding: 150px;
+}
+div#header > h2 {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+div#header p {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+div#features {
+  background-color: gold;
+  padding: 120px;
+}
+div#features > h2 {
+  color: black;
+  font-size: 40px;
+}
+div#content {
+  background-color: forestgreen;
+  padding: 120px;
+}
+div#content > h2 {
+  color: black;
+  font-size: 40px;
+}
+div#info {
+  background-color: hotpink;
+  padding: 120px;
+}
+div#info > h2 {
+  color: black;
+  font-size: 40px;
+}
+div#footer {
+  background-color: #fff;
+  padding: 25px;
+}
+div#footer > h3 {
+  color: lightslategray;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+div#links ul {
+  display: block;
+}
+div#links li {
+  display: inline;
+  font-weight: bold;
+  color: black;
+  margin: 10px;
+}
+div#links a {
+  color: lightslategray;
+  text-decoration: none;
+}
+div#links a:hover {
+  color: lightsteelblue;
+}
+div#footerpage {
+  padding: 15px;
+}
+div#footerpage ul {
+  display: block;
+}
+div#footerpage li {
+  display: inline;
+  font-weight: bold;
+  color: rgb(17, 79, 212);
+  margin: 10px;
+}
+div#footerpage a {
+  color: lightslategray;
+  text-decoration: none;
+}
+div#footerpage a:hover {
+  color: lightsteelblue;
+}
