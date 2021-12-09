@@ -49,14 +49,6 @@ div#header p {
   font-weight: bold;
   color: white;
 }
-div#features {
-  background-color: gold;
-  padding: 120px;
-}
-div#features > h2 {
-  color: black;
-  font-size: 40px;
-}
 div#content {
   background-color: forestgreen;
   padding: 120px;

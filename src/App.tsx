@@ -7,6 +7,8 @@ import NavHeader from "./components/NavHeader";
 
 import SiteAlerts from "./components/SiteAlerts";
 
+import CardInfo from "./components/CardInfo";
+
 export default function App() {
   return (
     <div className="App">
@@ -25,14 +27,11 @@ export default function App() {
           that historically have not ...
         </p>
       </div>
-      <div id="features">
-        <h2>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-          asperiores blanditiis at rerum alias quidem voluptate amet deserunt
-          quod nostrum commodi eligendi dolore iste vero magnam, quos, qui
-          beatae suscipit?
-        </h2>
+
+      <div id="product">
+        <CardInfo />
       </div>
+
       <div id="content">
         <h2>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
@@ -41,6 +40,7 @@ export default function App() {
           rerum exercitationem ipsam beatae.
         </h2>
       </div>
+
       <div id="info">
         <h2>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Id omnis
