@@ -7,8 +7,6 @@ import NavHeader from "./components/NavHeader";
 
 import SiteAlerts from "./components/SiteAlerts";
 
-import CardInfo from "./components/CardInfo";
-
 export default function App() {
   return (
     <div className="App">
@@ -28,9 +26,7 @@ export default function App() {
         </p>
       </div>
 
-      <div id="product">
-        <CardInfo />
-      </div>
+      <div id="product"></div>
 
       <div id="content">
         <h2>
